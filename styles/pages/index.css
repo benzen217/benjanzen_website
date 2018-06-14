@@ -1,11 +1,17 @@
+/* CSS Written by Ben Janzen */
+/* TODO: Move Shared CSS to new stylesheet */
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    line-height: 1.3em;
 }
 
 header {
     display: block;
     padding-top: 3.5em;
-    background-color: black;
 }
 
     #nav_bar {
@@ -72,7 +78,7 @@ header {
         }
 
             #ben_janzen {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-family: Montserrat, sans-serif;
                 position: relative;
                 top: 1.1em;
                 font-size: 4em;
@@ -80,8 +86,39 @@ header {
             }
 
             #my_absurd_title {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-family: Josefin Slab, serif;
                 color: white;
+                font-size: 1.3em;
+                font-style: Italic;
                 position: relative;
                 top: .3em;
             }
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+    article {
+        padding: 13px;
+        width: 350px;
+        text-align: justify;
+    }
+
+    h2 {
+        font-family: Josefin Slab, serif;
+        text-align: center;
+        height: .7em;
+    }
+
+footer {
+    padding: 10px;
+}
+
+    #copywrite {
+        color: #8b8b8b;
+        font-size: .7em;
+        text-align: right;
+    }
