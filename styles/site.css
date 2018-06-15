@@ -1,0 +1,78 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+header {
+    display: block;
+    padding-top: 3.5em;
+}
+
+    header a {
+        color: #444444;
+        text-decoration: none;
+    }
+
+    #nav_bar {
+        display: flex;
+        align-items: center;
+        height: 4em;
+        box-shadow: 0px 5px 6px -7px grey;
+        opacity: .95;
+        /* Fix to Top of Page */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+        #signature {
+            display: block;
+            height: 3em;
+            padding-left: 10px;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+            nav ul {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-end;
+                padding: 1em;
+            }
+
+            nav li {
+                display: block;
+                color: #444444;
+                padding: 10px;
+                border-radius: .7em;
+                transition: .6s
+            }
+
+            nav li:hover  {
+                background-color: #d0d0d0;
+                color: #000000;
+                border-radius: .7em;
+                transition: .6s;
+            }
+
+            nav .selected {
+                background-color: #f0f0f0;
+                color: black;
+                border-radius: .7em;
+            }
+
+footer {
+    padding: 10px;
+}
+
+    #copywrite {
+        color: #8b8b8b;
+        font-size: .7em;
+        text-align: right;
+    }
