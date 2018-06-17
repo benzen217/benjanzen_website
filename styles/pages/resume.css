@@ -1,6 +1,36 @@
+section {
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#education {
+    flex-direction: column;
+}
+
+#t_and_l {
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+    #t_and_l article {
+
+    }
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: right;
+    justify-content: right;
+    width: 150px;
+}
 
 .dot {
-    display: inline-block;
+    display: inline-flex;
     height: 10px;
     width: 10px;
     border-radius: 50%;
